@@ -3,6 +3,18 @@
   src: url(../font/Inter-Regular.ttf);
 }
 
+@keyframes anim {
+  0% {
+    transform: translateY(15px);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(15px);
+  }
+}
+
 * {
   font-family: "Inter";
 }
@@ -60,6 +72,9 @@ nav {
 }
 
 /* main */
+.all-section img {
+  animation: anim 3s ease-in-out infinite;
+}
 .main-title {
   margin-top: 200px;
 }
@@ -280,8 +295,13 @@ nav {
     margin-top: 50px;
   }
 
+  .all-section img {
+    width: 60%;
+  }
+
   .all-section {
     text-align: center;
+    flex-wrap: wrap-reverse;
   }
 
   .img-one {
