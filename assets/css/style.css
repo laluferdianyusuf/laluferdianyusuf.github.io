@@ -283,15 +283,20 @@ nav {
     display: none;
   }
 
+  .main-title h5 {
+    font-size: 16px;
+  }
+
   .main-title p {
-    padding: 10px 75px;
+    padding: 10px 10px;
+    text-align: center;
   }
 
   .hand-stick {
     padding-top: 50px;
   }
 
-  /* product */
+  /* skills */
   .products-title {
     padding-top: 80px;
     padding-bottom: 50px;
@@ -309,7 +314,7 @@ nav {
     padding-top: 40px;
   }
 
-  .col-4 {
+  .list-products .list-content .col-4 {
     width: 80%;
   }
 
