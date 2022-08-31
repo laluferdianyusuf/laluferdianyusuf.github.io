@@ -269,7 +269,7 @@ nav {
   border-top: 1px solid white;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 575px) {
   /* main */
   .main-title {
     margin-top: 50px;
